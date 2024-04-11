@@ -1,0 +1,190 @@
+.carousel-item-1 {
+    position: relative;
+    background-image: url("../../../assets/images/business-people-meeting.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.carousel-item-2 {
+    position: relative;
+    background-image: url("../../../assets/images/front-view-arrangement-economy-elements.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.carousel-item-3 {
+    position: relative;
+    background-image: url("../../../assets/images/hand-holding-growth-arrow-with-coins.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.carousel-inner {
+    transition: all 1s ease;
+}
+
+.carousel-inner:hover {
+    opacity: 0.8;
+}
+
+.carousel-control-next-icon {
+    border-radius: 50%;
+    margin-left: 150px;
+    background-color: rgb(39, 39, 39);
+}
+
+.carousel-control-prev-icon {
+    border-radius: 50%;
+    margin-right: 150px;
+    background-color: rgb(39, 39, 39);
+}
+
+@media screen and (max-width: 1154px) {
+    .carousel-control-next-icon {
+        border-radius: 50%;
+        margin-left: 80px;
+        background-color: rgb(39, 39, 39);
+    }
+
+    .carousel-control-prev-icon {
+        border-radius: 50%;
+        margin-right: 80px;
+        background-color: rgb(39, 39, 39);
+    }
+}
+
+/* @media screen and (min-width: 880px) {
+    .carousel-control-next-icon {
+        border-radius: 50%;
+        margin-left: 0px;
+        background-color: rgb(39, 39, 39);
+    }
+
+    .carousel-control-prev-icon {
+        border-radius: 50%;
+        margin-right: 0px;
+        margin-left: 120px;
+        background-color: rgb(39, 39, 39);
+    }
+} */
+
+.inner-text {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 540px) {
+    .inner-text {
+        position: relative;
+        top: 70px;
+        left: 10px;
+    }
+}
+
+.title {
+    font-size: 3.8rem;
+    color: #1D1D1D;
+}
+
+/* css for top card */
+.card-row {
+    margin: 55px 0px;
+}
+
+.top-card {
+    border: none;
+    border-radius: 0 !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition: all 0.3s ease
+}
+
+.top-card:hover {
+    background-color: rgba(202, 222, 234, 0.769);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.top-card-body {
+    padding: 33px;
+}
+
+
+/* Services Cards */
+.personal-loan-card {
+    position: relative;
+    background-image: url("../../../assets/images/personal_Loan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 245px;
+}
+
+.business-loan-card {
+    position: relative;
+    background-image: url("../../../assets/images/Business_Loan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 245px;
+}
+
+.mortgage-loan-card {
+    position: relative;
+    background-image: url("../../../assets/images/mortgage_loan");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 245px;
+}
+
+.loan-title {
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.loan-title-line {
+    bottom: 16px;
+    height: 5px;
+    width: 50px;
+    background-color: green;
+}
+
+.overlay {
+    height: 0px;
+    width: 100%;
+    background: #000;
+    opacity: .0;
+    transition: height 1s ease, opacity 0.9s ease;
+    transition-delay: 0s;
+}
+
+.personal-loan-card:hover .overlay,
+.mortgage-loan-card:hover .overlay,
+.business-loan-card:hover .overlay {
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    transform: scaleY(1);
+    transition-delay: 0s;
+}
+
+.business-loan-card .overlay {
+    transition-delay: 0.1s;
+    /* Delay when hover state ends */
+}
+
+.overlay-button {
+    position: absolute;
+    top: 43%;
+    left: 35%;
+    border: 2px solid gray;
+    padding: 12px;
+    color: white;
+}

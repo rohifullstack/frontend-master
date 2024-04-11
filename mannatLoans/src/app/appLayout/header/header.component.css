@@ -1,0 +1,29 @@
+.appHeader {
+    background-color: #A5B5C0;
+}
+
+.flexDiv {
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+}
+
+.navbar-nav {
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.collapse:not(.show)::ng-deep {
+    display: none;
+}
+
+.navbar-nav,
+li {
+    margin-right: 52px;
+}
+
+a {
+    color: black;
+    font-size: 16px;
+}
