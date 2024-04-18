@@ -1,6 +1,6 @@
 <header class="appHeader">
     <div class="navtoobar">
-        <app-navbar></app-navbar>
+        <app-navbar (eventToggler)="togglerHandleEvent($event)"></app-navbar>
     </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -12,10 +12,10 @@
             <div class="collapse navbar-collapse flexDiv" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house-user"></i> Home</a>
+                        <a routerLink='' (eventToggler)="togglerHandleEvent($event)" routerLinkActive="is-active" class="nav-link active" aria-current="page"><i class="fa-solid fa-house-user"></i> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-screwdriver-wrench"></i> Services</a>
+                        <a routerLink='service' class="nav-link" href="#"><i class="fa-solid fa-screwdriver-wrench"></i> Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa-solid fa-hand-holding-dollar"></i> Loan & Mortgages</a>

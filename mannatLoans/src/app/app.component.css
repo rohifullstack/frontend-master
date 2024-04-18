@@ -1,0 +1,8 @@
+/* App Footer CSS  #060c14*/
+.app-Footer {
+    position: relative;
+    /* top: 1px; */
+    bottom: 0;
+    background-color:#060f1a;
+    width: 100%;
+}

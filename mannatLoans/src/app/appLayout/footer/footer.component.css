@@ -1,0 +1,50 @@
+footer {
+    text-align: center;
+    padding: 5px;
+}
+
+.footer-container {
+    margin-top: 20px;
+}
+
+.card-row {
+    padding-left: 120px;
+}
+
+li {
+    font-size: 14px;
+    list-style: none;
+    text-align: start;
+}
+
+.icons-div {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    gap: 30px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a i {
+    padding-right: 28px;
+    gap: 30px;
+}
+
+.fa-instagram, .fa-linkedin, .fa-twitter {
+    margin-top: 15.5px;
+}
+
+.fa-solid,
+.fa-regular,
+.fa-brands {
+    color: green;
+}
+
+.heading {
+    font-size: 20px !important;
+    padding-top: 0px;
+    margin-top: 0px;
+}

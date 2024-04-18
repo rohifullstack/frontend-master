@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -7,12 +7,16 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   todayDate: any = new Date();
-
+  @Output() eventToggler = new EventEmitter<any>();
   constructor() {
 
   }
 
   ngOnInit(): void {
 
+  }
+
+  showHideSiteBar() {
+    this.eventToggler.emit(true);
   }
 }

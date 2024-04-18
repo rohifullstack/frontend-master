@@ -1,12 +1,11 @@
-
-nav{
+nav {
     background-color: #00509e;
     padding: 4px;
 }
 
 .navbar-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 

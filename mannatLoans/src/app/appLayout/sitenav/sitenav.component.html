@@ -1,0 +1,32 @@
+<div class="wrapper">
+    <!-- Sidenav bar -->
+    <aside id="sidenav">
+        <div class="h-100">
+            <div class="sidebar-logo">
+                <a href="#">Mannat Loan</a>
+            </div>
+            <!-- Sidebar Navigation -->
+            <ul class="sidebar-nav">
+                <li class="sidebar-header">
+                    Tools & Components
+                </li>
+                <li class="sidebar-item">
+                    <a routerLink='' routerLinkActive="is-active" class="sidebar-link">
+                        <i class="fa-solid fa-list pe-2"></i>
+                        Home
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <!-- Main Component -->
+    <div class="main">
+        <div class="appheader">
+            <app-header (eventTogglerFromHeaderComponent)="togglerEventHandlerFromHeaderCom($event)"></app-header>
+        </div>
+        <!-- Home component master -->
+        <main class="content">
+            <router-outlet></router-outlet>
+        </main>
+    </div>
+</div>
