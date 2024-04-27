@@ -17,6 +17,7 @@ import { AddCustomerDetailsComponent } from './customer-Details/add-customer-det
 import { AgentDetailsComponent } from './master/agent-details/agent-details.component';
 import { OldCustomerDetailsComponent } from './customer-Details/old-customer-details/old-customer-details.component';
 import { FooterComponent } from './appLayout/footer/footer.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { FooterComponent } from './appLayout/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

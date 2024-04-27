@@ -1,6 +1,7 @@
 footer {
     text-align: center;
     padding: 5px;
+    overflow: hidden !important;
 }
 
 .footer-container {
@@ -33,7 +34,9 @@ li a i {
     gap: 30px;
 }
 
-.fa-instagram, .fa-linkedin, .fa-twitter {
+.fa-instagram,
+.fa-linkedin,
+.fa-twitter {
     margin-top: 15.5px;
 }
 

@@ -16,15 +16,15 @@ li {
 
 #sidenav {
     background-color: rgb(166, 166, 166);
-    max-width: 264px;
-    min-width: 264px;
+    max-width: 280px;
+    min-width: 280px;
     transition: all 0.35s ease-in-out;
     box-shadow: 0 0 35px rgba(49, 77, 66, 0.5);
 }
 
 /* Sidebar collapse */
 #sidenav.collapsed {
-    margin-left: -264px;
+    margin-left: -280px;
 }
 
 .main {
@@ -83,4 +83,15 @@ content {
     #sidenav.collapsed {
         margin-left: -100%;
     } */
+}
+
+.card-img-top {
+    align-self: center;
+    border-radius: 50%;
+    width: 70%;
+    height: 80%;
+}
+
+.card-border {
+    border: none;
 }
